@@ -5,7 +5,7 @@ A curated list of video tutorials, courses, and documentation links used by Grou
 ---
 
 ## 📺 1. Git & GitHub Tutorials
-* 🔗 <a href="https://www.youtube.com/watch?v=RGOj5yH7evE" target="_blank">Git & GitHub Full Course for Beginners</a>
+* 🔗 <a href="https://www.youtube.com/watch?v=apGV9Kg7ics" target="_blank">Git and GitHub Tutorial for Beginners (FreeCodeCamp)</a>
 * 🔗 <a href="https://www.youtube.com/watch?v=e2IbNHi4uCI" target="_blank">Git Branching & Merging Tutorial</a>
 
 ---
