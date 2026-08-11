@@ -1,67 +1,8 @@
-# DevOps & Windows Terminal Cheat Sheet
-
-A comprehensive quick-reference guide for Windows command-line environments (Command Prompt / PowerShell) and essential Git commands used in DevOps labs.
-
----
-
-##  1. Windows Command Prompt (CMD) Essentials
-
-| Action | CMD Command | Example / Usage |
-| :--- | :--- | :--- |
-| **List files & folders** | `dir` | `dir` |
-| **Change directory** | `cd` | `cd C:\Users\Projects` |
-| **Go up one folder** | `cd ..` | `cd ..` |
-| **Create new folder** | `mkdir` / `md` | `mkdir DevOpsAssignment` |
-| **Create empty file** | `type nul > filename` | `type nul > notes.txt` |
-| **View file contents** | `type` | `type notes.txt` |
-| **Delete file** | `del` | `del notes.txt` |
-| **Delete folder** | `rmdir /s` | `rmdir /s OldFolder` |
-| **Clear screen** | `cls` | `cls` |
-
----
-
-##  2. Windows PowerShell Commands
-
-| Action | PowerShell Command | Example / Usage |
-| :--- | :--- | :--- |
-| **List files** | `ls` or `Get-ChildItem` | `ls` |
-| **Create new file** | `New-Item` | `New-Item index.html -ItemType File` |
-| **Create new folder** | `New-Item` | `New-Item Assignment -ItemType Directory` |
-| **Check IP Configuration** | `Get-NetIPAddress` | `Get-NetIPAddress` |
-| **Check System Info** | `Get-ComputerInfo` | `Get-ComputerInfo` |
-
----
-
-##  3. Essential Git Commands (Windows)
-
-### **Repository Initial Setup**
-```cmd
-git init
-git clone [https://github.com/username/repository.git](https://github.com/username/repository.git)
-
-Checking Status & Logs
-
-DOS
-git status
-git log --oneline
-
-
-Staging & Committing Changes
-DOS
-git add .
-git commit -m "Add DevOps lab assignment files"
-
-
-Branching & Merging
-DOS
-git branch                       :: List all local branches
-git branch feature-branch         :: Create new branch
-git checkout feature-branch       :: Switch to branch
-git merge feature-branch          :: Merge into active branch
-
-
-Remote Synchronization
-DOS
-git remote -v                    :: View connected remote repository
-git push origin main             :: Push changes to GitHub
-git pull origin main             :: Pull latest changes from GitHub
+📊 Grafana Ultimate Cheat Sheet1. 🚀 Quick Setup & Service CommandsDefault Access: http://localhost:3000 | Default Credentials: admin / adminOS / EngineCommand / ActionLinux (systemd)sudo systemctl start grafana-serverLinux (Status Check)sudo systemctl status grafana-serverDocker Containerdocker run -d -p 3000:3000 --name=grafana grafana/grafanaCLI Plugin Installgrafana-cli plugins install <plugin-id>2. 🔌 Common Data Sources & Default PortsPrometheus: http://localhost:9090 (Most Common)InfluxDB: http://localhost:8086Loki (Logs): http://localhost:3100Graphite: http://localhost:2003Elasticsearch: http://localhost:92003. 📈 Key PromQL Queries (Prometheus Data Source)Grafana dashboards par metrics plot karne ke liye essential PromQL formulas:💻 System MetricsCPU Usage (%):Code snippet100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[5m])) * 100)
+Memory Usage (%):Code snippet(100 - ((node_memory_MemAvailable_bytes * 100) / node_memory_MemTotal_bytes))
+Disk Usage (%):Code snippet100 - ((node_filesystem_avail_bytes{mountpoint="/"} * 100) / node_filesystem_size_bytes{mountpoint="/"})
+🌐 Network & Application MetricsNetwork Receive Traffic (Bytes/sec):Code snippetrate(node_network_receive_bytes_total[5m])
+HTTP Request Rate (Per sec):Code snippetrate(http_requests_total[5m])
+HTTP 5xx Error Rate:Code snippetrate(http_requests_total{status=~"5.."}[5m])
+4. 🎯 Panel Types & When to UsePanel TypeBest Use CaseTime SeriesStandard line/bar chart for metrics over time (CPU, Traffic, Memory).StatSingle big number display (e.g., Current CPU %, Active Users).GaugeMeter style display with thresholds (Green/Yellow/Red limits).Bar ChartCategorical comparative values.TableRaw log entries, status lists, or multi-field data rows.Logs (Loki)Real-time tailing of application log streams.5. 🔀 Dashboard Variables (Dynamic Filtering)Dashboards ko dynamic banane ke liye Dashboard Settings $\rightarrow$ Variables $\rightarrow$ Add Variable:Query Type (Prometheus Example):Variable Name: instanceQuery: label_values(node_cpu_seconds_total, instance)Usage in Panels:Code snippetnode_memory_MemAvailable_bytes{instance="$instance"}
+6. 🚨 Alerting Quick SyntaxRule Type: Grafana Managed Alert / Cortex/Loki Alert.Condition: A (Query) $\rightarrow$ B (Reduce: Last value) $\rightarrow$ C (Math Threshold: C > 80).Pending Period (For): Set time buffer (e.g., 5m) to avoid false alarms due to spikes.Notification Channels: Webhooks, Discord, Slack, PagerDuty, Email.
