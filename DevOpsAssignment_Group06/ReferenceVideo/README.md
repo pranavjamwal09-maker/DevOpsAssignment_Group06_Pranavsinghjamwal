@@ -1,27 +1,39 @@
-# 🎥 Reference Videos & Learning Resources
+# 🎥 Grafana & Monitoring Reference Videos
 
-A curated list of video tutorials, courses, and documentation links used by Group 06 for understanding DevOps tools and concepts.
-
----
-
-## 📺 1. Git & GitHub Tutorials
-* 🔗 <a href="https://www.youtube.com/watch?v=apGV9Kg7ics" target="_blank">Git and GitHub Tutorial for Beginners (FreeCodeCamp)</a>
-* 🔗 <a href="https://www.youtube.com/watch?v=e2IbNHi4uCI" target="_blank">Git Branching & Merging Tutorial</a>
+A curated list of video tutorials, crash courses, and official documentation used by Group 06 for setting up Grafana dashboards, Prometheus metrics, and Loki log analytics.
 
 ---
 
-## 🐳 2. DevOps & Containerization
-* 🔗 <a href="https://www.youtube.com/watch?v=pg19Z8LL06w" target="_blank">Docker Tutorial for Absolute Beginners</a>
-* 🔗 <a href="https://www.youtube.com/watch?v=pTFZFxd4hOI" target="_blank">Docker Full Course - FreeCodeCamp</a>
+## 📊 1. Grafana & Prometheus Crash Courses
+
+* 🔗 <a href="https://www.youtube.com/watch?com/watch?v=ddA3xOq2N6A" target="_blank">Grafana Tutorial for Beginners (Full Course)</a>
+* 🔗 <a href="https://www.youtube.com/watch?v=h4Sl2190Ncg" target="_blank">Prometheus & Grafana Complete Setup Guide</a>
+* 🔗 <a href="https://www.youtube.com/watch?v=9TJx7QTrTyo" target="_blank">PromQL Tutorial - Master Prometheus Queries</a>
 
 ---
 
-## 🛠️ 3. Environment & Tools Setup
-* 🔗 <a href="https://www.youtube.com/watch?v=F0S12T4kH_U" target="_blank">VS Code Git & GitHub Integration Setup</a>
+## 🪵 2. Log Management & Advanced Dashboards
+
+* 🔗 <a href="https://www.youtube.com/watch?v=v3Oa30fInY8" target="_blank">Grafana Loki Tutorial - Log Aggregation Engine</a>
+* 🔗 <a href="https://www.youtube.com/watch?v=1uR5aepSHow" target="_blank">Node Exporter & System Monitoring Dashboard (ID 1860)</a>
 
 ---
 
-## 📚 4. Official Documentation Links
-* 🔗 <a href="https://git-scm.com/doc" target="_blank">Official Git Documentation</a>
-* 🔗 <a href="https://docs.github.com" target="_blank">GitHub Docs</a>
-* 🔗 <a href="https://docs.docker.com" target="_blank">Docker Docs</a>
+## 🚨 3. Alerting & Webhooks
+
+* 🔗 <a href="https://www.youtube.com/watch?v=6PvhB5p_oI0" target="_blank">Grafana Alerting & Discord/Slack Integration</a>
+
+---
+
+## 📚 4. Official Documentation & Portals
+
+* 🔗 <a href="https://grafana.com/docs/grafana/latest/" target="_blank">Official Grafana Documentation</a>
+* 🔗 <a href="https://prometheus.io/docs/introduction/overview/" target="_blank">Official Prometheus Documentation</a>
+* 🔗 <a href="https://grafana.com/grafana/dashboards/" target="_blank">Grafana Dashboards Library (Import Portal)</a>
+
+---
+
+## 📌 Summary Log
+
+* **Topics Covered:** Grafana Dashboards, Prometheus Time-Series DB, PromQL Querying, Loki Logs, Alert Webhooks.
+* **Compatibility:** Mobile & Desktop Friendly Markdown Layout.
