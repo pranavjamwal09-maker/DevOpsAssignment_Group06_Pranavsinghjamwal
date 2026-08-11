@@ -1,39 +1,26 @@
-# 🎥 Grafana & Monitoring Reference Videos
+# 🎥 Grafana & Monitoring Reference Video Resources
 
-A curated list of video tutorials, crash courses, and official documentation used by Group 06 for setting up Grafana dashboards, Prometheus metrics, and Loki log analytics.
-
----
-
-## 📊 1. Grafana & Prometheus Crash Courses
-
-* 🔗 <a href="https://www.youtube.com/watch?com/watch?v=ddA3xOq2N6A" target="_blank">Grafana Tutorial for Beginners (Full Course)</a>
-* 🔗 <a href="https://www.youtube.com/watch?v=h4Sl2190Ncg" target="_blank">Prometheus & Grafana Complete Setup Guide</a>
-* 🔗 <a href="https://www.youtube.com/watch?v=9TJx7QTrTyo" target="_blank">PromQL Tutorial - Master Prometheus Queries</a>
+Curated list of working video tutorials, complete courses, and official documentation used by Group 06 for setting up Grafana dashboards and Prometheus monitoring.
 
 ---
 
-## 🪵 2. Log Management & Advanced Dashboards
+## 📊 1. Grafana & Prometheus Video Tutorials
 
-* 🔗 <a href="https://www.youtube.com/watch?v=v3Oa30fInY8" target="_blank">Grafana Loki Tutorial - Log Aggregation Engine</a>
-* 🔗 <a href="https://www.youtube.com/watch?v=1uR5aepSHow" target="_blank">Node Exporter & System Monitoring Dashboard (ID 1860)</a>
-
----
-
-## 🚨 3. Alerting & Webhooks
-
-* 🔗 <a href="https://www.youtube.com/watch?v=6PvhB5p_oI0" target="_blank">Grafana Alerting & Discord/Slack Integration</a>
+* 🔗 [Easiest Prometheus & Grafana Tutorial in Hindi (TrainWithShubham)](https://www.youtube.com/watch?v=DXZUunEeHqM)
+* 🔗 [Easy Grafana Project Tutorial for DevOps (TrainWithShubham)](https://www.youtube.com/watch?v=QwGm5m4AxNA)
+* 🔗 [Server Monitoring with Grafana, Prometheus and Loki (Piyush Garg)](https://www.youtube.com/watch?v=ddZjhv66o_o)
+* 🔗 [Grafana Continuous Monitoring Full Course (Edureka)](https://www.youtube.com/watch?v=w-c3KYKQQfs)
+* 🔗 [Grafana Explained in Under 5 Minutes](https://www.youtube.com/watch?v=lILY8eSspEo)
 
 ---
 
-## 📚 4. Official Documentation & Portals
+## 📚 2. Official Documentation & Dashboards Library
 
-* 🔗 <a href="https://grafana.com/docs/grafana/latest/" target="_blank">Official Grafana Documentation</a>
-* 🔗 <a href="https://prometheus.io/docs/introduction/overview/" target="_blank">Official Prometheus Documentation</a>
-* 🔗 <a href="https://grafana.com/grafana/dashboards/" target="_blank">Grafana Dashboards Library (Import Portal)</a>
+* 🔗 [Official Grafana Documentation Portal](https://grafana.com/docs/grafana/latest/)
+* 🔗 [Grafana Official Pre-built Dashboards Library](https://grafana.com/grafana/dashboards/)
+* 🔗 [Official Prometheus Documentation](https://prometheus.io/docs/introduction/overview/)
 
 ---
 
-## 📌 Summary Log
-
-* **Topics Covered:** Grafana Dashboards, Prometheus Time-Series DB, PromQL Querying, Loki Logs, Alert Webhooks.
-* **Compatibility:** Mobile & Desktop Friendly Markdown Layout.
+## 📌 Usage Note
+All links in this markdown file are clean standard Markdown links verified to open directly in your browser.
