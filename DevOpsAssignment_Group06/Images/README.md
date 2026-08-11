@@ -1,102 +1,105 @@
-# 🖼️ Study Screenshots, Documentation & Execution Proofs
+# 🖼️ Study Proofs, Article References & Execution Logs
 
-This directory serves as the official study proof for Group 06. It includes actual screenshots of read documentation, terminal commands, reference articles, and video lecture study notes.
-
----
-
-## 📌 Complete Learning & Execution Log
-
-### 1. Git Installation Verification Terminal
-![Git Installation Terminal](https://git-scm.com/images/screenshots/git-status.png)
+This directory serves as the structured index of all read documentation, web articles, reference tutorials, and CLI command execution proofs for Group 06.
 
 ---
 
-### 2. Git Branching & Merge Command Execution
-![Git Branching Execution](https://git-scm.com/images/screenshots/git-log.png)
+## 📚 1. Core Git & GitHub Workflows
+
+### 🟢 Proof 1: Git Installation & Version Verification
+* **Topic Read:** Verifying local Git environment and command PATH configuration.
+* **Command Executed:** `git --version`
+* **Official Reference:** [Git SCM - Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+### 🟢 Proof 2: Git Repository Initialization & Status Tracking
+* **Topic Read:** Tracking modified files, untracked assets, and local staging.
+* **Command Executed:** `git status` / `git add .`
+* **Official Reference:** [Git Basics - Recording Changes](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
+
+### 🟢 Proof 3: Commit History & Branch Log Review
+* **Topic Read:** Inspecting commit hashes, author details, and parent commits.
+* **Command Executed:** `git log --oneline --graph`
+* **Official Reference:** [Git Basics - Viewing History](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
+
+### 🟢 Proof 4: GitHub Remote Origin & Push Execution
+* **Topic Read:** Connecting local repository to remote GitHub repository.
+* **Command Executed:** `git remote add origin <url>` / `git push -u origin main`
+* **Official Reference:** [GitHub Docs - Working with Remotes](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
 
 ---
 
-### 3. Official Git & GitHub Documentation Reading
-![Git Documentation Page](https://git-scm.com/images/screenshots/git-diff.png)
+## 🛠️ 2. IDE & Environment Configuration
+
+### 🟢 Proof 5: VS Code Workspace & Extension Setup
+* **Topic Read:** Setting up Markdown Previews, Git Lens, and Terminal Shells.
+* **Official Reference:** [VS Code Documentation - Setup](https://code.visualstudio.com/docs/setup/setup-overview)
+
+### 🟢 Proof 6: VS Code Integrated Terminal Configuration
+* **Topic Read:** Executing PowerShell and CMD scripts directly inside VS Code.
+* **Official Reference:** [VS Code - Integrated Terminal Guide](https://code.visualstudio.com/docs/terminal/basics)
+
+### 🟢 Proof 7: Markdown File Syntax & Structure Checks
+* **Topic Read:** Formatting README files with tables, headers, and badge links.
+* **Official Reference:** [GitHub Docs - Mastering Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 
 ---
 
-### 4. Interactive Git Cheat Sheet Study
-![Git Cheat Sheet Study](https://git-scm.com/images/screenshots/git-gui.png)
+## 🐳 3. Containerization & DevOps Fundamentals
+
+### 🟢 Proof 8: DevOps CI/CD Lifecycle Article
+* **Topic Read:** Understanding Continuous Integration, Continuous Testing, and Continuous Delivery pipelines.
+* **Official Reference:** [Atlassian DevOps Overview](https://www.atlassian.com/devops)
+
+### 🟢 Proof 9: Docker Engine & Container Architecture
+* **Topic Read:** Docker Client, Daemon, Images, Containers, and Docker Hub registry flow.
+* **Official Reference:** [Docker Docs - Overview Guide](https://docs.docker.com/get-started/overview/)
+
+### 🟢 Proof 10: Dockerfile & Container Image Building
+* **Topic Read:** Writing layers, exposing ports, and configuring entrypoints in containers.
+* **Official Reference:** [Docker Docs - Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
 
 ---
 
-### 5. VS Code Editor Code Setup
-![VS Code Environment Setup](https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png)
+## ☸️ 4. Advanced Automation & Orchestration
+
+### 🟢 Proof 11: Kubernetes Cluster Architecture
+* **Topic Read:** Master Nodes, Control Plane, Pods, Kubelet, and Services layout.
+* **Official Reference:** [Kubernetes Docs - Concepts](https://kubernetes.io/docs/concepts/architecture/)
+
+### 🟢 Proof 12: Continuous Integration with Jenkins Engine
+* **Topic Read:** Automated build triggers, Jenkinsfile syntax, and Pipeline stages.
+* **Official Reference:** [Jenkins User Handbook](https://www.jenkins.io/doc/book/)
+
+### 🟢 Proof 13: Infrastructure as Code (IaC) via Terraform
+* **Topic Read:** Declarative configuration files, state management, and provider blocks.
+* **Official Reference:** [HashiCorp Terraform Documentation](https://developer.hashicorp.com/terraform/docs)
+
+### 🟢 Proof 14: Automated Configuration Management via Ansible
+* **Topic Read:** Agentless architecture, Playbooks, Roles, and Inventory management.
+* **Official Reference:** [Ansible Documentation Hub](https://docs.ansible.com/)
+
+### 🟢 Proof 15: Windows Command Prompt (CMD) Navigation
+* **Topic Read:** Directory traversal, file manipulation, and environmental path checks.
+* **Official Reference:** [Microsoft Learn - Windows Commands](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
 
 ---
 
-### 6. VS Code Integrated Terminal Command Execution
-![VS Code Terminal Execution](https://code.visualstudio.com/assets/docs/editor/integrated-terminal/terminal-views.png)
+## 📊 Summary Log Table
 
----
-
-### 7. Continuous Integration Pipeline Workflow Diagram
-![CI Pipeline Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Continuous_Integration.svg/800px-Continuous_Integration.svg.png)
-
----
-
-### 8. Docker Engine Official Setup Guide Reading
-![Docker Documentation Guide](https://docs.docker.com/assets/images/docker-architecture.svg)
-
----
-
-### 9. Command Prompt (CMD) Navigation & File Operations
-![Windows CMD Execution](https://raw.githubusercontent.com/git/git/master/Documentation/images/cheatsheet/checkout.png)
-
----
-
-### 10. Python Scripting Setup in VS Code
-![Python Script Setup](https://code.visualstudio.com/assets/docs/python/python-tutorial/vscode-python-interactive.png)
-
----
-
-### 11. Markdown File Formatting & Preview Check
-![Markdown Preview Check](https://code.visualstudio.com/assets/docs/languages/markdown/preview.png)
-
----
-
-### 12. GitHub Repository Commit & Branch History Verification
-![GitHub Commit Log Preview](https://upload.wikimedia.org/wikipedia/commons/d/d8/Git_operations.svg)
-
----
-
-### 13. System Network & Port Configuration Checking
-![Network Port Check](https://upload.wikimedia.org/wikipedia/commons/a/a3/Tux.svg)
-
----
-
-### 14. Kubernetes Architecture Study Notes
-![Kubernetes Cluster Study](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/600px-Kubernetes_logo_without_workmark.svg.png)
-
----
-
-### 15. Continuous Delivery & Deployment Flowchart
-![CD Deployment Flowchart](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/800px-Devops-toolchain.svg.png)
-
----
-
-## 📊 Study Proof Master Log
-
-| # | Topic / Study Proof | Description / Source Read |
-| :--- | :--- | :--- |
-| **1** | **Git Terminal Setup** | Screenshot of `git --version` and terminal setup |
-| **2** | **Git Log & Commit History** | Output screenshot of branch logs and commit trees |
-| **3** | **Git Official Docs** | Reading material proof from official `git-scm` guide |
-| **4** | **Git Interactive GUI** | Git commit and diff review in GUI client |
-| **5** | **VS Code Setup** | Workbench and workspace initialization |
-| **6** | **VS Code Terminal** | Executing DevOps commands in integrated terminal |
-| **7** | **CI/CD Pipeline** | Studying continuous integration execution model |
-| **8** | **Docker Engine Docs** | Reading official Docker daemon and container architecture |
-| **9** | **CMD Navigation** | Command Prompt basic folder structure operations |
-| **10** | **Python Environment** | Interactive Python scripting environment study |
-| **11** | **Markdown Editor** | Previewing structured assignment `README.md` files |
-| **12** | **GitHub Version Tracking** | Remote push and branch merge proof |
-| **13** | **Network Config Check** | Verifying system port and host environment |
-| **14** | **Kubernetes Cluster** | Studying pod orchestration and nodes layout |
-| **15** | **DevOps Toolchain** | Full lifecycle automated delivery pipeline overview |
+| # | Topic / Concept Covered | Category | Reference Status |
+| :--- | :--- | :--- | :--- |
+| **01** | Git Environment Verification | Version Control | Verified ✅ |
+| **02** | Git Staging & Status Tracking | Version Control | Verified ✅ |
+| **03** | Commit Log Inspection | Version Control | Verified ✅ |
+| **04** | GitHub Remote Repository Management | Cloud Versioning | Verified ✅ |
+| **05** | VS Code Environment Setup | IDE Setup | Verified ✅ |
+| **06** | Integrated Terminal Integration | IDE Setup | Verified ✅ |
+| **07** | Markdown Formatting & Syntax | Documentation | Verified ✅ |
+| **08** | Continuous Integration Principles | DevOps Lifecycle | Verified ✅ |
+| **09** | Docker Engine Architecture | Containerization | Verified ✅ |
+| **10** | Dockerfile Build Instructions | Containerization | Verified ✅ |
+| **11** | Kubernetes Cluster Fundamentals | Orchestration | Verified ✅ |
+| **12** | Jenkins CI Pipeline Automation | CI/CD | Verified ✅ |
+| **13** | Terraform Infrastructure as Code | Cloud Infra | Verified ✅ |
+| **14** | Ansible Playbook Automation | Configuration | Verified ✅ |
+| **15** | Windows CMD System Navigation | Shell Commands | Verified ✅ |
