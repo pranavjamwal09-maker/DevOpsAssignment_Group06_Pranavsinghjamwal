@@ -1,10 +1,10 @@
-# ⚡ DevOps & Windows Terminal Cheat Sheet
+# DevOps & Windows Terminal Cheat Sheet
 
 A comprehensive quick-reference guide for Windows command-line environments (Command Prompt / PowerShell) and essential Git commands used in DevOps labs.
 
 ---
 
-## 💻 1. Windows Command Prompt (CMD) Essentials
+##  1. Windows Command Prompt (CMD) Essentials
 
 | Action | CMD Command | Example / Usage |
 | :--- | :--- | :--- |
@@ -20,7 +20,7 @@ A comprehensive quick-reference guide for Windows command-line environments (Com
 
 ---
 
-## 🌀 2. Windows PowerShell Commands
+##  2. Windows PowerShell Commands
 
 | Action | PowerShell Command | Example / Usage |
 | :--- | :--- | :--- |
@@ -32,7 +32,7 @@ A comprehensive quick-reference guide for Windows command-line environments (Com
 
 ---
 
-## 🐙 3. Essential Git Commands (Windows)
+##  3. Essential Git Commands (Windows)
 
 ### **Repository Initial Setup**
 ```cmd
