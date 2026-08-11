@@ -5,23 +5,23 @@ A curated list of video tutorials, courses, and documentation links used by Grou
 ---
 
 ## 📺 1. Git & GitHub Tutorials
-* **Git & GitHub Full Course for Beginners:** [Watch Video](https://www.youtube.com/watch?v=RGOj5yH7evE)
-* **Git Branching & Merging Tutorial:** [Watch Video](https://www.youtube.com/watch?v=e2IbNHi4uCI)
+* 🔗 <a href="https://www.youtube.com/watch?v=RGOj5yH7evE" target="_blank">Git & GitHub Full Course for Beginners</a>
+* 🔗 <a href="https://www.youtube.com/watch?v=e2IbNHi4uCI" target="_blank">Git Branching & Merging Tutorial</a>
 
 ---
 
 ## 🐳 2. DevOps & Containerization
-* **DevOps Engineering Course for Beginners:** [Watch Video](https://www.youtube.com/watch?v=j5Zsa_1qCGE)
-* **Docker Tutorial for Beginners:** [Watch Video](https://www.youtube.com/watch?v=pTFZFxd4hOI)
+* 🔗 <a href="https://www.youtube.com/watch?v=pg19Z8LL06w" target="_blank">Docker Tutorial for Absolute Beginners</a>
+* 🔗 <a href="https://www.youtube.com/watch?v=pTFZFxd4hOI" target="_blank">Docker Full Course - FreeCodeCamp</a>
 
 ---
 
 ## 🛠️ 3. Environment & Tools Setup
-* **VS Code Git Setup:** [Watch Video](https://www.youtube.com/watch?v=F0S12T4kH_U)
+* 🔗 <a href="https://www.youtube.com/watch?v=F0S12T4kH_U" target="_blank">VS Code Git & GitHub Integration Setup</a>
 
 ---
 
 ## 📚 4. Official Documentation Links
-* [Official Git Documentation](https://git-scm.com/doc)
-* [GitHub Docs](https://docs.github.com)
-* [Docker Docs](https://docs.docker.com)
+* 🔗 <a href="https://git-scm.com/doc" target="_blank">Official Git Documentation</a>
+* 🔗 <a href="https://docs.github.com" target="_blank">GitHub Docs</a>
+* 🔗 <a href="https://docs.docker.com" target="_blank">Docker Docs</a>
