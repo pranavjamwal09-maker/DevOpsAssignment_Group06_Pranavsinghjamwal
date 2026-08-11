@@ -180,6 +180,4 @@ rate(node_network_transmit_bytes_total[5m]) / 1024
 (sum(rate(http_requests_total{status=~"5.."}[5m]))
 / sum(rate(http_requests_total[5m]))) * 100
 
-Module 6: Building Grafana Dashboards & Panels🎨 Selecting Panel TypesPanel TypeDescriptionWhen to UseTime SeriesStandard line/bar graph over timeResource usage tracking (CPU, RAM over 24h)StatSingle big numerical valueReal-time current CPU %, active online usersGaugeSpeedometer-style visualHighlighting safety bounds (Green/Yellow/Red)Bar ChartCategorical comparative chartComparing storage used across different disksTableMulti-column gridListing active node IPs, OS versions, uptimeLogsScrollable text panelViewing application/system log outputs
-
 
