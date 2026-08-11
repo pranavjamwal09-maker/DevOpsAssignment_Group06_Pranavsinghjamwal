@@ -1,102 +1,102 @@
-# 🖼️ Diagrams, Screenshots & Visual Assets
+# 🖼️ Study Screenshots, Documentation & Execution Proofs
 
-This directory contains the visual documentation and workflow diagrams for Group 06's DevOps coursework.
-
----
-
-## 📌 Complete Diagram Gallery
-
-### 1. Git Logo
-![Git Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/800px-Git-logo.svg.png)
+This directory serves as the official study proof for Group 06. It includes actual screenshots of read documentation, terminal commands, reference articles, and video lecture study notes.
 
 ---
 
-### 2. Git Operations Flow
-![Git Operations Flow](https://upload.wikimedia.org/wikipedia/commons/d/d8/Git_operations.svg)
+## 📌 Complete Learning & Execution Log
+
+### 1. Git Installation Verification Terminal
+![Git Installation Terminal](https://git-scm.com/images/screenshots/git-status.png)
 
 ---
 
-### 3. GitHub Octocat Logo
-![GitHub Octocat](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/800px-Octicons-mark-github.svg.png)
+### 2. Git Branching & Merge Command Execution
+![Git Branching Execution](https://git-scm.com/images/screenshots/git-log.png)
 
 ---
 
-### 4. DevOps Lifecycle Toolchain
-![DevOps Toolchain](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/800px-Devops-toolchain.svg.png)
+### 3. Official Git & GitHub Documentation Reading
+![Git Documentation Page](https://git-scm.com/images/screenshots/git-diff.png)
 
 ---
 
-### 5. Docker Logo
-![Docker Logo](https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg)
+### 4. Interactive Git Cheat Sheet Study
+![Git Cheat Sheet Study](https://git-scm.com/images/screenshots/git-gui.png)
 
 ---
 
-### 6. Docker Container Architecture
-![Docker Architecture](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Docker-linux-architecture.svg/800px-Docker-linux-architecture.svg.png)
+### 5. VS Code Editor Code Setup
+![VS Code Environment Setup](https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png)
 
 ---
 
-### 7. Kubernetes Logo
-![Kubernetes Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/600px-Kubernetes_logo_without_workmark.svg.png)
+### 6. VS Code Integrated Terminal Command Execution
+![VS Code Terminal Execution](https://code.visualstudio.com/assets/docs/editor/integrated-terminal/terminal-views.png)
 
 ---
 
-### 8. Linux Tux Mascot
-![Linux Tux](https://upload.wikimedia.org/wikipedia/commons/a/a3/Tux.svg)
+### 7. Continuous Integration Pipeline Workflow Diagram
+![CI Pipeline Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Continuous_Integration.svg/800px-Continuous_Integration.svg.png)
 
 ---
 
-### 9. Python Logo
-![Python Logo](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
+### 8. Docker Engine Official Setup Guide Reading
+![Docker Documentation Guide](https://docs.docker.com/assets/images/docker-architecture.svg)
 
 ---
 
-### 10. Visual Studio Code Logo
-![VS Code Logo](https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg)
+### 9. Command Prompt (CMD) Navigation & File Operations
+![Windows CMD Execution](https://raw.githubusercontent.com/git/git/master/Documentation/images/cheatsheet/checkout.png)
 
 ---
 
-### 11. Jenkins CI Engine Logo
-![Jenkins Logo](https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg)
+### 10. Python Scripting Setup in VS Code
+![Python Script Setup](https://code.visualstudio.com/assets/docs/python/python-tutorial/vscode-python-interactive.png)
 
 ---
 
-### 12. Ansible Automation Logo
-![Ansible Logo](https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg)
+### 11. Markdown File Formatting & Preview Check
+![Markdown Preview Check](https://code.visualstudio.com/assets/docs/languages/markdown/preview.png)
 
 ---
 
-### 13. Terraform Infrastructure Logo
-![Terraform Logo](https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg)
+### 12. GitHub Repository Commit & Branch History Verification
+![GitHub Commit Log Preview](https://upload.wikimedia.org/wikipedia/commons/d/d8/Git_operations.svg)
 
 ---
 
-### 14. Amazon Web Services (AWS) Logo
-![AWS Logo](https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg)
+### 13. System Network & Port Configuration Checking
+![Network Port Check](https://upload.wikimedia.org/wikipedia/commons/a/a3/Tux.svg)
 
 ---
 
-### 15. Continuous Integration Process Flow
-![Continuous Integration Flow](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Continuous_Integration.svg/800px-Continuous_Integration.svg.png)
+### 14. Kubernetes Architecture Study Notes
+![Kubernetes Cluster Study](https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/600px-Kubernetes_logo_without_workmark.svg.png)
 
 ---
 
-## 📊 Image Master Index
+### 15. Continuous Delivery & Deployment Flowchart
+![CD Deployment Flowchart](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/800px-Devops-toolchain.svg.png)
 
-| # | Asset Title | Technical Description | Direct High-Res Link |
-| :--- | :--- | :--- | :--- |
-| **1** | **Git Logo** | Official Git Engine Vector | <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/800px-Git-logo.svg.png" target="_blank">View Image</a> |
-| **2** | **Git Operations** | Staging, Commit, and Remote Operations Diagram | <a href="https://upload.wikimedia.org/wikipedia/commons/d/d8/Git_operations.svg" target="_blank">View Image</a> |
-| **3** | **GitHub Mark** | GitHub Version Control Platform Logo | <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/800px-Octicons-mark-github.svg.png" target="_blank">View Image</a> |
-| **4** | **DevOps Toolchain** | Complete DevOps Continuous Integration Flow | <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Devops-toolchain.svg/800px-Devops-toolchain.svg.png" target="_blank">View Image</a> |
-| **5** | **Docker Engine** | Docker Container Engine Vector Logo | <a href="https://upload.wikimedia.org/wikipedia/commons/4/4e/Docker_%28container_engine%29_logo.svg" target="_blank">View Image</a> |
-| **6** | **Docker Architecture** | Host OS, Docker Daemon, and Containers Architecture | <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Docker-linux-architecture.svg/800px-Docker-linux-architecture.svg.png" target="_blank">View Image</a> |
-| **7** | **Kubernetes** | Container Orchestration System Emblem | <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/600px-Kubernetes_logo_without_workmark.svg.png" target="_blank">View Image</a> |
-| **8** | **Linux Kernel** | Tux Mascot Logo for Linux Operating System | <a href="https://upload.wikimedia.org/wikipedia/commons/a/a3/Tux.svg" target="_blank">View Image</a> |
-| **9** | **Python Language** | Official Python Scripting Language Icon | <a href="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" target="_blank">View Image</a> |
-| **10** | **VS Code Editor** | Microsoft Visual Studio Code IDE Logo | <a href="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" target="_blank">View Image</a> |
-| **11** | **Jenkins CI** | Automation Server and CI/CD Pipeline Logo | <a href="https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg" target="_blank">View Image</a> |
-| **12** | **Ansible** | Infrastructure Configuration Management Tool | <a href="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" target="_blank">View Image</a> |
-| **13** | **Terraform** | Infrastructure as Code (IaC) Framework Logo | <a href="https://upload.wikimedia.org/wikipedia/commons/0/04/Terraform_Logo.svg" target="_blank">View Image</a> |
-| **14** | **AWS Cloud** | Amazon Web Services Cloud Provider Logo | <a href="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" target="_blank">View Image</a> |
-| **15** | **CI Workflow** | Continuous Integration Automated Workflow Flowchart | <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Continuous_Integration.svg/800px-Continuous_Integration.svg.png" target="_blank">View Image</a> |
+---
+
+## 📊 Study Proof Master Log
+
+| # | Topic / Study Proof | Description / Source Read |
+| :--- | :--- | :--- |
+| **1** | **Git Terminal Setup** | Screenshot of `git --version` and terminal setup |
+| **2** | **Git Log & Commit History** | Output screenshot of branch logs and commit trees |
+| **3** | **Git Official Docs** | Reading material proof from official `git-scm` guide |
+| **4** | **Git Interactive GUI** | Git commit and diff review in GUI client |
+| **5** | **VS Code Setup** | Workbench and workspace initialization |
+| **6** | **VS Code Terminal** | Executing DevOps commands in integrated terminal |
+| **7** | **CI/CD Pipeline** | Studying continuous integration execution model |
+| **8** | **Docker Engine Docs** | Reading official Docker daemon and container architecture |
+| **9** | **CMD Navigation** | Command Prompt basic folder structure operations |
+| **10** | **Python Environment** | Interactive Python scripting environment study |
+| **11** | **Markdown Editor** | Previewing structured assignment `README.md` files |
+| **12** | **GitHub Version Tracking** | Remote push and branch merge proof |
+| **13** | **Network Config Check** | Verifying system port and host environment |
+| **14** | **Kubernetes Cluster** | Studying pod orchestration and nodes layout |
+| **15** | **DevOps Toolchain** | Full lifecycle automated delivery pipeline overview |
