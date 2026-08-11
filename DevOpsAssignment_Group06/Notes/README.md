@@ -180,4 +180,60 @@ rate(node_network_transmit_bytes_total[5m]) / 1024
 (sum(rate(http_requests_total{status=~"5.."}[5m]))
 / sum(rate(http_requests_total[5m]))) * 100
 
+## Module 6: Building Grafana Dashboards & Panels
+
+### 🎨 Selecting Panel Types
+
+* **Time Series:** Standard line or bar graph over time. Best used for tracking CPU and Memory trends over 24 hours.
+* **Stat:** Single large numerical value callout. Best used for showing real-time metrics like current CPU % or online user count.
+* **Gauge:** Speedometer-style visual indicator. Best used for safety threshold limits (Green, Yellow, Red).
+* **Bar Chart:** Categorical comparative chart. Best used for comparing storage usage across different disk drives.
+* **Table:** Multi-column structured grid. Best used for listing active node IPs, system versions, and server uptimes.
+* **Logs:** Scrollable raw text panel. Best used for viewing real-time log streams.
+
+---
+
+### 🛠️ Dashboard Creation Step-by-Step
+
+1. Click **Dashboards** ➔ **New** ➔ **New Dashboard**.
+2. Click **Add Visualization** ➔ Select **Prometheus** Data Source.
+3. Paste your PromQL query into the **Code Panel**.
+4. Set the **Panel Title** in the right-side configuration bar.
+5. Set the **Unit** (for example: `Percent (0-100)`, `Bytes`, or `Requests/sec`).
+6. Configure **Thresholds** (Base = Green, 70 = Yellow, 85 = Red).
+7. Save the Dashboard (`Ctrl + S`).
+
+---
+
+## Module 7: Dynamic Variables & Templating
+
+To filter data dynamically using dropdowns instead of creating separate dashboards for every server:
+
+### 🔧 Setting Up Node Variable
+1. Go to **Dashboard Settings** (Gear Icon) ➔ **Variables** ➔ **Add Variable**.
+2. **Name:** `node`
+3. **Type:** `Query`
+4. **Data Source:** `Prometheus`
+5. **Query Definition:**
+   ```promql
+   label_values(
+     node_cpu_seconds_total, 
+     instance
+   )
+
+Module 8: Alerting Architecture & Notification Channels
+🚨 The Grafana Alerting Lifecycle
+[ Data Query ]
+      │
+      ▼
+[ Evaluate Rule ]
+      │
+      ▼
+[ Pending Buffer (5m) ]
+      │
+      ▼
+[ Firing State ]
+      │
+      ▼
+[ Discord / Slack Alert ]
 
