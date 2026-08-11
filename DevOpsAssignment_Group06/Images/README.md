@@ -6,8 +6,8 @@ This directory serves as the storage for all visual documentation, output screen
 
 ## 📁 Sample System & Git Workflow Architecture
 
-### 1. Git Workflow Architecture
-![Git Workflow](https://raw.githubusercontent.com/git/git/master/Documentation/images/cheatsheet/checkout.png)
+### 1. Git Workflow Diagram
+![Git Workflow](https://git-scm.com/images/about/index-start-small.png)
 
 ---
 
@@ -15,9 +15,9 @@ This directory serves as the storage for all visual documentation, output screen
 
 | Asset Name | Description | Preview Link |
 | :--- | :--- | :--- |
-| `git_workflow.png` | Standard Git Branching & Workflow Diagram | [View Image](https://raw.githubusercontent.com/git/git/master/Documentation/images/cheatsheet/checkout.png) |
-| `github_octocat.png` | Official GitHub Logo & Asset Sample | [View Image](https://github.githubassets.com/assets/GitHub-Mark-ea2971adc38d.png) |
-| `docker_architecture.png` | Containerization Architecture Example | [View Image](https://www.docker.com/wp-content/uploads/2022/03/horizontal-logo-monochromatic-white.png) |
+| `git_workflow.png` | Git Version Control Workflow | [View Image](https://git-scm.com/images/about/index-start-small.png) |
+| `devops_lifecycle.png` | Standard DevOps Lifecycle Diagram | [View Image](https://upload.wikimedia.org/wikipedia/commons/0/05/Devops-toolchain.png) |
+| `docker_logo.png` | Docker Containerization Logo | [View Image](https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_%28container_engine%29_logo.png) |
 
 ---
 
